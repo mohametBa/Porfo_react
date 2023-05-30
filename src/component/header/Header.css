@@ -1,0 +1,83 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*====================== debat ========================**/
+
+.debat {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/*====================== social ========================**/
+
+
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    padding-left: 2rem;
+
+}
+
+.header_socials::after {
+    content: '';
+    width: 2px;
+    height: 2rem;
+    background: var(--color-primary);
+
+}
+
+/*====================== image ========================**/
+.avatar {
+    /* background: linear-gradient(var(--color-primary), transparent ); */
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+
+.scroll_down{
+    position:absolute;
+    right: -0.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    padding-right: 2rem;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/*================= MADIO QUERY (tablette) +==================*/
+
+@media screen and  (max-width: 1024px) {
+    header_container{
+        height: 6vh;
+    }
+}
+/*================= MADIO QUERY (Smartphone) +==================*/
+
+@media screen and  (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header_socials, .scroll_down {
+        display: none;
+    }
+}
