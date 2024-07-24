@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Porfo_react/static/css/main.eefe1cd3.css",
+    "main.js": "/Porfo_react/static/js/main.0f6b6c8e.js",
+    "static/media/mock5.png": "/Porfo_react/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/image.png": "/Porfo_react/static/media/image.7fcb70108806d3f5310e.png",
+    "static/media/self.png": "/Porfo_react/static/media/self.aee462936ba9b2cd418f.png",
+    "static/media/me.png": "/Porfo_react/static/media/me.7036fa4903511688cb59.png",
+    "static/media/mock2.png": "/Porfo_react/static/media/mock2.e8ed2c07928dfdc15a79.png",
+    "static/media/mock1.png": "/Porfo_react/static/media/mock1.e11f6103909e8c52d703.png",
+    "static/media/mock3.png": "/Porfo_react/static/media/mock3.8624cffbb7ae4e742c4c.png",
+    "static/media/mock4.png": "/Porfo_react/static/media/mock4.2b2ba794bc5cd75eb2c1.png",
+    "index.html": "/Porfo_react/index.html",
+    "main.eefe1cd3.css.map": "/Porfo_react/static/css/main.eefe1cd3.css.map",
+    "main.0f6b6c8e.js.map": "/Porfo_react/static/js/main.0f6b6c8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eefe1cd3.css",
+    "static/js/main.0f6b6c8e.js"
+  ]
+}
